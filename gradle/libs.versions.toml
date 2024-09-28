@@ -1,5 +1,7 @@
 [versions]
 agp = "8.4.0"
+androidPluginAnnotationV9 = "1.0.0"
+androidSdk = "10.0.2"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -14,6 +16,9 @@ activity = "1.9.2"
 constraintlayout = "2.1.4"
 
 [libraries]
+android-plugin-annotation-v9 = { module = "org.maplibre.gl:android-plugin-annotation-v9", version.ref = "androidPluginAnnotationV9" }
+android-plugin-markerview-v9 = { module = "org.maplibre.gl:android-plugin-markerview-v9", version.ref = "androidPluginAnnotationV9" }
+android-sdk = { module = "org.maplibre.gl:android-sdk", version.ref = "androidSdk" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
